@@ -36,22 +36,22 @@ export function HeroSection() {
 
       <div className="hidden lg:flex flex-1 justify-center items-center">
         <div className="relative">
-          {/* Green circular border */}
-          <div className="w-80 h-80 rounded-full border-4 border-primary/30 flex items-center justify-center">
-            <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-primary">
-              <Image
-                src="/images/aaryan-profile.png"
-                alt="Aaryan Shrestha"
-                width={288}
-                height={288}
-                className="w-full h-full object-cover"
-              />
-            </div>
+          {/* Green circular border with glow animation */}
+          <div
+            className="w-72 h-72 rounded-full border-2 border-primary animate-[borderGlow_2s_ease-in-out_infinite,float_3s_ease-in-out_infinite] shadow-[0_0_20px_rgba(34,197,94,0.3)] overflow-hidden flex items-center justify-center"
+          >
+            <Image
+              src="/images/aaryan-profile.png"
+              alt="Aaryan Shrestha"
+              width={288}
+              height={288}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Decorative elements */}
-          <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary rounded-full"></div>
-          <div className="absolute -bottom-6 -left-6 w-6 h-6 bg-accent rounded-full"></div>
+          <div className="absolute -top-4 -right-4 w-8 h-8 bg-primary/90 rounded-full animate-[float_3s_ease-in-out_infinite]"></div>
+          <div className="absolute -bottom-6 -left-6 w-6 h-6 bg-accent/90 rounded-full animate-[float_3s_ease-in-out_infinite]"></div>
         </div>
       </div>
     </div>

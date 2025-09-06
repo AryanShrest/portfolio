@@ -5,11 +5,11 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Courier Management System - nepXpress",
     description:
-      "Full-stack e-commerce application built with Django and React. Features include user authentication, product catalog, shopping cart, and payment integration.",
-    technologies: ["Python", "Django", "React", "PostgreSQL", "Stripe"],
-    image: "/ecommerce-dashboard.png",
+      "Developed using Java with MySQL as the backend, and implemented the user interface in Java Swing within NetBeans IDE.",
+    technologies: ["Java", "MySQL", "Java Swing"],
+    image: "/nepxpress-logo.png",
   },
   {
     title: "Task Management API",
